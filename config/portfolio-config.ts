@@ -1,7 +1,7 @@
 export const portfolioConfig = {
   // Theme Selection - Change this to switch entire theme and perspective
   theme: {
-    name: "travel", // Options: "developer", "designer", "photographer", "writer", "minimal", "creative", "corporate", "gaming", "editor", "gamedev", "musician", "artist", "consultant", "teacher", "chef", "fitness", "travel", "fashion", "architect", "lawyer", "doctor"
+    name: "editor", // Options: "developer", "designer", "photographer", "writer", "minimal", "creative", "corporate", "gaming", "editor", "gamedev", "musician", "artist", "consultant", "teacher", "chef", "fitness", "travel", "fashion", "architect", "lawyer", "doctor"
     customColors: {
       primary: "#DC2626", // Custom primary color (optional)
       secondary: "#EA580C", // Custom secondary color (optional)
@@ -36,22 +36,22 @@ export const portfolioConfig = {
   features: {
     timeline: true,
     skills: true,
-    testimonials: false,
-    blog: false,
+    testimonials: true,
+    blog: true,
     services: true,
     achievements: true,
-    certifications: false,
-    gallery: false, // For photographers, artists
+    certifications: true,
+    gallery: true, // For photographers, artists
     videos: true, // For content creators, editors
-    projects: false, // For developers, designers
+    projects: true, // For developers, designers
     portfolio: true, // For creative professionals
     pricing: false,
-    faq: false,
-    newsletter: false,
+    faq: true,
+    newsletter: true,
     darkMode: true,
     animations: true,
     particles: true,
-    music: false,
+    music: true,
     chatbot: false,
     downloadProtection: true,
     rightClickDisabled: true,
